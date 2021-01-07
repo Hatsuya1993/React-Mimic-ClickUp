@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Assignment</title>
+</head>
+
+<body class="bg-light">
+
+    <main>
+
+        <section class="container-fluid p-5"  id="top">
+
+            <!-- Top portion start -->
+            
+            <section class="task-management container-fluid d-flex justify-content-between">
+                <p class="text-secondary">Task Management</p>
+                <p class="text-uppercase text-secondary"><i class="fas fa-check px-2"></i>Show Closed</p>
+            </section>
+
+            <section class="action_items container-fluid d-flex mb-5">
+                <i class="fas fa-sort-down text-secondary my-auto"></i>
+                <h4 class="m-0">Actions Items</h4>
+                <i class="fas fa-info-circle text-secondary mx-2 my-auto"></i>
+                <i class="fas fa-robot text-secondary mx-2 my-auto"></i>
+                <p class="text-uppercase my-auto">+ New Task</p>
+            </section>
+
+            <!-- Top portion end -->
+
+            <section class="revision container-fluid">
+
+                <!-- Content start (REVISION) -->
+                <i class="fas fa-chevron-circle-down title-revision-arrow1"></i>
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <div class="d-flex">
+                                        <p
+                                            class="text-uppercase title-revision rounded text-light px-2 my-auto mx-2">
+                                            Revision</p>
+                                        <p class="my-auto">2 Tasks</p>
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="text-center">Assignee</div>
+                                </th>
+                                <th scope="col">
+                                    <div class="text-center">Due Date</div>
+                                </th>
+                                <th scope="col"> <i class="fas fa-plus-circle my-auto text-secondary"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-revision my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Design new logos</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/23/19,2am</td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-revision my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Write feature blog post</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/24/19,1am</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex text-secondary">
+                                        <i class="fas fa-plus align-bottom my-auto"></i>
+                                        <p class="my-auto px-2">New task</p>
+                                    </div>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!--  Content end (REVISION) -->
+
+            <!-- Content start (IN PROGRESS) -->
+            <section class="revision container-fluid">
+                <i class="fas fa-chevron-circle-down title-revision-arrow2"></i>
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <div class="d-flex">
+                                        <p
+                                            class="text-uppercase title-progress rounded text-light px-2 my-auto mx-2">
+                                            In Progress</p>
+                                        <p class="my-auto">7 Tasks</p>
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="text-center">Assignee</div>
+                                </th>
+                                <th scope="col">
+                                    <div class="text-center">Due Date</div>
+                                </th>
+                                <th scope="col"><i class="fas fa-plus-circle my-auto text-secondary"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Set up Google Analytics funnel</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/23/19,8am</td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Organize monthly marketing budget</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/23/19,3am</td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Draft new landing page</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/23/19,1am</td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Hire VP of marketing</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">4/27/19,7am</td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">New hire training</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-secondary"><i class="far fa-calendar-check"></i></td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Deploy new CRM</p>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-secondary"><i class="far fa-calendar-check"></i></td>
+                                <td></td>
+                            </tr>
+                            <tr class="shadow-sm bg-white border-bottom">
+                                <th scope="row">
+                                    <div class="d-flex w-100">
+                                        <i class="fas fa-square title-progress my-auto"></i>
+                                        <p class="my-auto px-2 name-side">Run productivity Adwords campaign</p>
+                                        <div class="notification">
+                                        <i class="fas fa-square fa-sm text-secondary"></i>
+                                        <i class="fas fa-circle text-primary rounded-circle bg-white"></i> 
+                                        </div>
+                                    </div>
+                                </th>
+                                <td class="text-center"><i class="fas fa-user text-secondary"></i></td>
+                                <td class="text-center text-danger">6/1/19,8am</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex text-secondary">
+                                        <i class="fas fa-plus align-bottom my-auto"></i>
+                                        <p class="my-auto px-2">New task</p>
+                                    </div>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- Content end (IN PROGRESS) -->
+
+            <!-- Fixed button start -->
+            <div><a href="#top"><i class="text-white rounded-circle arrow-up p-3 fas fa-plus"></i></a>
+            </div>
+            <!-- Fixed button end -->
+
+        </section>
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

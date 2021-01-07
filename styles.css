@@ -1,0 +1,92 @@
+*{
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+body {
+    min-width: 700px !important;
+}
+
+/* Default size for font-awesome (fas fa-square) */
+
+.fa-square{
+    font-size: 10px;
+}
+
+/* End */
+
+/* Setting the position for the font-awesome (fas fa-chevron-circle-down) relative to revision class*/
+
+.revision {
+    position: relative;
+}
+
+.title-revision-arrow1 {
+    position: absolute;
+    top: 13px;
+    left: 1px;
+    color: rgb(255, 120, 0);
+}
+
+.title-revision-arrow2 {
+    position: absolute;
+    top: 13px;
+    left: 1px;
+    color: rgb(51, 151, 221);
+}
+
+/* end */
+
+/* Custom background colours to match the title */
+
+.title-revision{
+    background-color: rgb(255, 120, 0);
+    color: rgb(255, 120, 0)
+}
+
+.title-progress{
+    background-color: rgb(51, 151, 221);
+    color: rgb(51, 151, 221);
+}
+
+/* end */
+
+/* Setting the width of the content to fit align both tables together */
+
+.name-side{
+    min-width: 13vw !important;
+    width: 350px !important;
+}
+
+/* end */
+
+/* Styles for fixed button at the bottom-right */
+
+.arrow-up {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background-image: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+}
+
+.arrow-up:hover {
+    cursor: pointer;
+}
+
+/* end */
+
+/* Setting the position for the fas fa-square (square icon) together with a fas fa-circle (circle icon) to create the icon  */
+
+.notification{
+    position: relative;
+}
+
+.fa-circle{
+    position: absolute;
+    right: -3px;
+    top: 2px;
+    padding: 1px;
+    font-size: 7px;
+}
+
+/* end */
