@@ -1,0 +1,9 @@
+.subNav-items{
+    margin: auto 0;
+    padding: 10px 0;
+}
+
+.subNav:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}

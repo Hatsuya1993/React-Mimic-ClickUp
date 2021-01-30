@@ -1,0 +1,260 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    font-size: 12px;
+}
+
+.nav-menu {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -100%;
+    transition: all 0.3s linear;
+}
+
+.nav-menu-active {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    transition: all 0.3s linear;
+    background-color: white;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.BiIcons-container {
+    background-color: #dce1e2;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.BiIcons-container:hover {
+    cursor: pointer;
+}
+
+.AiIcons {
+    margin: auto 5px;
+}
+
+.side {
+    display: flex;
+    color: #53575e;
+    padding: 5px 0;
+}
+
+.side:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.side p {
+    margin: 0 5px;
+}
+
+.sideOptions {
+    margin: 20px 0;
+    border-bottom: 1px solid #ecf0f1;
+    color: #53575e;
+}
+
+.addDetails {
+    display: flex;
+    border-radius: 10px;
+}
+
+.addDetails:hover {
+    cursor: pointer;
+    background-color: #dce1e2;
+}
+
+
+.icon-section p {
+    margin: 0;
+    padding-right: 50px;
+    border-right: 1px solid #ecf0f1;
+}
+
+.BiAlignMiddle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.BiAlignMiddle-FiMoreHorizontal{
+    position: absolute;
+    padding: 3px;
+    background-color: white;
+    right: 5px;
+    display: none;
+}
+
+.BiAlignMiddle:hover .BiAlignMiddle-FiMoreHorizontal {
+    display: inline;
+    cursor: pointer;
+}
+
+.BiAlignMiddle-ShowListItems{
+    position: absolute;
+    top: 50px;
+}
+
+.BiAlignMiddle p {
+    margin: 0 auto;
+    border-right: 1px solid #ecf0f1;
+    padding: 12px;
+}
+
+.BiChalkboard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.BiChalkboard p {
+    margin: 0 auto;
+    border-right: 1px solid #ecf0f1;
+    padding: 12px;
+}
+
+ul {
+    color: transparent;
+}
+
+.AiOutlineLink {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.AiOutlineLink p {
+    margin: auto 0;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.AiOutlineLink p:hover {
+    background-color: #dce1e2;
+    cursor: pointer;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+
+}
+
+.subNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.searchInput p {
+    margin: auto 0;
+    padding: 10px 5px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+.searchInput-1 {
+    width: 200px;
+    margin-left: 5px;
+    display: flex;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+.searchInput-1 input {
+    outline: none;
+    border: none;
+}
+
+.searchInput-1 input,
+textarea {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+.searchInput-2 {
+    width: 40px;
+    text-align: center;
+}
+
+.nav-menu-items {
+    padding: 10px 0;
+}
+
+.searchInput-1:hover p {
+    color: #7b68ee
+}
+
+::placeholder:hover {
+    color: #7b68ee !important
+}
+
+.showSideBar {
+    padding: 10px;
+    margin: auto 0;
+    border-radius: 10px;
+}
+
+.showSideBar p:hover {
+    cursor: pointer;
+    background-color: #ecf0f1;
+}
+
+.showSideBarMulti:hover .showSideBar,
+.showSideBarMulti .IoMdArrowForward {
+    display: none;
+}
+
+.showSideBarMulti:hover .IoMdArrowForward {
+    display: inline;
+    cursor: pointer;
+}
+
+.IoMdArrowForward {
+    background-color: #dce1e2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.listUnderDetail {
+    border-radius: 10px;
+}
+
+.listUnderDetail:hover {
+    cursor: pointer;
+    background-color: #dce1e2;
+}
+
+.AiOutlinePlus p {
+    margin: auto 0;
+    padding: 10px;
+}
+
+.AiOutlinePlus {
+    border-radius: 10px;
+}
+
+.AiOutlinePlus:hover {
+    cursor: pointer;
+    background-color: #dce1e2;
+}

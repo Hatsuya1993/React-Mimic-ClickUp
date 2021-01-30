@@ -1,0 +1,130 @@
+.ShareListPopUp {
+    width: 600px;
+    height: 250px;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    padding: 0;
+}
+
+.ShareListPopUp-container-top {
+    padding: 30px 20px 10px 20px;
+}
+
+.ShareListPopUp-container-top-shareList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shareList {
+    display: flex;
+}
+
+.shareList p {
+    margin: auto 0;
+    background-color: #7b68ee;
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.shareList h3 {
+    margin: auto 0;
+}
+
+.AiOutlineClose {
+    margin: auto 0;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 100%;
+    color: white;
+}
+
+.AiOutlineClose-symbol {
+    transition: 0.2s all linear;
+}
+
+.AiOutlineClose-symbol:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+.ShareListPopUp-container-top-filter input {
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.ShareListPopUp-container-top-filter {
+    margin: 30px 0;
+    border: 1px solid #ecf0f1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ShareListPopUp-container-top-filter-AiOutlineSearch {
+    color: #7b68ee;
+}
+
+.ShareListPopUp-container-top-shared {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ShareListPopUp-container-top-shared-with-space {
+    display: flex;
+    margin: 0 10px;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+}
+
+.ShareListPopUp-container-top-shared-with {
+    display: flex;
+}
+
+.ShareListPopUp-container-top-shared-with p {
+    margin: auto 5px;
+}
+
+.ShareListPopUp-container-top-shared-with-space-AiFillUnlock {
+    display: flex;
+    border: 1px solid #7b68ee;
+    border-radius: 10px;
+    color: #7b68ee;
+}
+
+.ShareListPopUp-container-top-shared-permissions p {
+    margin: auto 0;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.ShareListPopUp-container-top-shared-permissions p:hover {
+    cursor: pointer;
+}
+
+.ShareListPopUp-container-top-shared-with-space-AiFillUnlock:hover {
+    cursor: pointer;
+}
+
+.typeNameEmail{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #ecf0f1;
+    color: #dce1e2;
+    border-top: 1px solid #dce1e2;
+}
+
+.typeNameEmail-content{
+    display: flex;
+}

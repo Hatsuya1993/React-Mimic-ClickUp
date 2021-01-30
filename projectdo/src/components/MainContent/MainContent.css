@@ -1,0 +1,124 @@
+.MainContent {
+    background-color: #ecf0f1;
+    height: 80vh;
+    padding: 10px 25px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.MainContent-content {
+    background-color: #ecf0f1;
+    width: 300px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.MainContent-container-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dropDown:hover {
+    background-color: #dce1e2;
+    cursor: pointer;
+}
+
+.dropDown {
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 5px;
+    transition: 0.1s all linear;
+}
+
+.dropDown p {
+    margin: auto 0;
+}
+
+.IoIosArrowDropdown:hover {
+    color: #ecf0f1;
+}
+
+.BsFillInfoCircleFill {
+    margin: auto 5px;
+    transition: 0.1s all linear;
+}
+
+.BsFillInfoCircleFill:hover {
+    cursor: pointer;
+    color: #7b68ee;
+}
+
+.MainContent-AiIcons {
+    margin: auto 5px;
+    border-radius: 50%;
+    transition: 0.1s all linear;
+    background-color: white;
+}
+
+.MainContent-AiIcons:hover {
+    border: 1px solid #7b68ee;
+    cursor: pointer;
+}
+
+.newTask {
+    margin: auto 0;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.1 all linear;
+}
+
+.newTask:hover {
+    cursor: pointer;
+    background-color: #dce1e2;
+}
+
+.MainContent-container {
+    /* display: flex; */
+    margin: 0 auto;
+    border: 1px solid #dce1e2;
+    justify-content: space-between;
+}
+
+.showClosed {
+    margin: auto 10px;
+}
+
+.showClosed p {
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s all linear;
+}
+
+.showClosed p:hover {
+    background-color: #dce1e2;
+    cursor: pointer;
+}
+
+.toDoTask-container-left{
+    display: flex;
+}
+
+.toDoTask{
+    padding: 10px 20px;
+}
+
+.toDoTask-container-right{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.toDoTask-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.toDoTask-container-left .IoIosArrowDroprightCircle:hover {
+    cursor: pointer;
+}
+

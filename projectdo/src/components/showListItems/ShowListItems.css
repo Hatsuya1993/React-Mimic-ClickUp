@@ -1,0 +1,74 @@
+.ShowListItems {
+    background-color: white;
+    border-radius: 10px;
+    width: 240px;
+    height: 370px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+    position: absolute;
+    left: 14%;
+    top: 20%;
+    font-size: 15px;
+    z-index: 3;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.ShowListItems-container-view {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ShowListItems-container-view p {
+    padding: 0;
+    border: none;
+}
+
+.ShowListItems-container-view-AiIcons {
+    margin: auto 0;
+}
+
+.ShowListItems-container-view-default {
+    margin: 3px;
+}
+
+.ShowListItems-container-view-default .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ShowListItems-container-view-default .items p {
+    padding: 0;
+    border: none;
+}
+
+.items-container {
+    display: flex;
+}
+
+.ShowListItems-container-view-default:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.ShowListItems .permission {
+    border: none;
+}
+
+.ShowListItems .personalOptions {
+    border-right: none;
+}
+
+.templateMain {
+    position: relative;
+}
+
+.ShowTemplateItem {
+    position: absolute;
+    right: -250px;
+}
+
+.ShowTemplateItemList{
+    position: absolute;
+    right: -105%;
+}

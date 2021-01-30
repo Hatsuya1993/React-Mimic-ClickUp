@@ -1,0 +1,62 @@
+.CreateTaskDepend-container{
+}
+
+.CreateTaskDepend-container-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreateTaskDepend-container-top-close{
+        transition: 0.2s all linear;
+}
+
+.CreateTaskDepend-container-top-close:hover{
+        cursor: pointer;
+        transform: rotate(180deg);
+        transform-origin: center center;
+}
+
+.CreateTaskDepend-container-waiting-top{
+    display: flex;
+    /* width: 20vw; */
+    justify-content: space-between;
+    width: 150px;
+}
+
+.CreateTaskDepend-container-waiting{
+    padding: 0 10px;
+    background-color: rgba(255, 204, 0, 0.05);
+    border: 1px solid rgba(255, 204, 0, .4);
+    border-left: 2px solid #fc0;
+    margin: 10px 0;
+}
+
+.CreateTaskDepend-container-blocking{
+    padding: 0 10px;
+    border: 1px solid rgba(247, 77, 75, .2);
+    border-left: 2px solid #f74d4b;
+    background: rgba(247, 77, 75, .05);
+    margin: 10px 0;
+}
+
+.CreateTaskDepend-container-blocking-top{
+    width: 150px;
+    display: flex;
+    /* width: 20vw; */
+    justify-content: space-between;
+}
+
+.CreateTaskDepend-container-tasks{
+    padding: 0 10px;
+    border: 1px solid #b2a3f6;
+    border-left: 2px solid #7b68ee;
+    background: rgba(245, 243, 253, .62);
+}
+
+.CreateTaskDepend-container-tasks-top{
+    width: 150px;
+    display: flex;
+    /* width: 20vw; */
+    justify-content: space-between;
+}
+

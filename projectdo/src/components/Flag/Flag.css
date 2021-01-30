@@ -1,0 +1,46 @@
+.Flag{
+        width: 150px !important;
+        height: 210px;
+        background-color: white;
+        padding: 10px 0px;
+        box-shadow: 0 0 10px rgb(179, 179, 179);
+        z-index: 1;
+        font-size: 12px;
+        position: absolute;
+        top: -150px;
+        border-radius: 10px;
+}
+
+.Flag p{
+        padding: 0 5px;
+        margin: 0;
+}
+
+.flag-each{
+        display: flex;
+        padding: 10px 0;
+}
+
+.flag-each-red{
+        color: red;
+}
+
+.flag-each-yellow{
+        color: yellow;
+}
+
+.flag-each-blue{
+        color: blue;
+}
+
+.flag-each-blue{
+        color: grey;
+}
+
+.flag-each:hover{
+        background-color: #ecf0f1;
+}
+
+hr{
+        margin: 0;
+}

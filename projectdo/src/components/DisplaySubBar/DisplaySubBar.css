@@ -1,0 +1,28 @@
+.addNew{
+    background-color: #ecf0f1;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.spaces{
+    display: flex;
+}
+
+.spaces p {
+    margin: auto 0;
+    padding: 10px 0;
+    margin-left: 5px;
+}
+
+.dashboards{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin: auto 0;
+    padding: 10px 0;
+}

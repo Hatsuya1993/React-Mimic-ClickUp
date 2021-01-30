@@ -1,0 +1,123 @@
+.CreatTask-container-task {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.CreatTask-container {
+    padding: 10px;
+}
+
+.CreatTask-container-task input {
+    outline: none;
+    border: none;
+    width: 260px;
+}
+
+.CreatTask-container-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreatTask-container-list-left {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+}
+
+.CreatTask-container-list-left-list input {
+    border-radius: 20px;
+    border-color: #ecf0f1;
+    outline: none;
+    align-items: center;
+}
+
+.CreatTask-container-list-left-profile {
+    display: flex;
+
+}
+
+.CreatTask-container-list-left-profile-MdSupervisorAccount {
+    margin: 0 10px;
+}
+.CreatTask-container-list-right{
+    border: 1px solid #ecf0f1;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.CreatTask-container-add{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreatTask-container-attachments{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.CreatTask-container-attachments-IoMdArrowDropdown{
+    border: 1px solid #7b68ee;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: #7b68ee;
+    transition: 0.2s all linear;
+}
+
+.CreatTask-container-attachments-IoMdArrowDropdown:hover{
+    cursor: pointer;
+    background-color: #7b68ee;
+    color: white;
+}
+
+.CreatTask-container-dragDrop{
+    height: 80px;
+}
+
+.CreatTask-container-dragDrop span{
+    color: #7b68ee;
+    text-decoration: underline;
+}
+
+.CreatTask-container-dragDrop span:hover{
+    cursor: pointer;
+}
+
+.CreatTask-container-createTask{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreatTask-container-createTask-icons{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+
+.CreatTask-container-createTask-right{
+    display: flex;
+}
+
+.CreatTask-container-createTask-right button{
+    height: 40px;
+}
+
+.CreatTask-container-createTask-icons div:hover {
+    cursor: pointer;
+}
+
+.CreatTask-container-createTask-icons-flag{
+    position: relative;
+}
+
+.CreatTask-container-createTask-icons-tag{
+    position: relative;
+}
+
+.CreatTask-container-createTask-icons-wand{
+    position: relative;
+}

@@ -1,0 +1,108 @@
+.listDropDownItem {
+        background-color: white;
+        border-radius: 10px;
+        width: 230px;
+        height: 400px;
+        box-shadow: 0 0 10px rgb(179, 179, 179);
+        position: absolute;
+        left: 8%;
+        top: 80%;
+        z-index: 1;
+}
+
+.listDropDownItem-content-top {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+}
+
+.listDropDownItem-content-top p {
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #dce1e2;
+}
+
+.BsTrash {
+        color: #ff80b9;
+}
+
+.listDropDownItem-content-top p:hover {
+        cursor: pointer;
+        background-color: #dce1e2;
+}
+
+.listDropDownItem-content-middle {
+        padding: 10px 0;
+        border-bottom: 1px solid #dce1e2;
+}
+
+.listDropDownItem-content-middle p {
+        border: none;
+        padding: 5px;
+}
+
+.listDropDownItem-content-middle p:hover {
+        cursor: pointer;
+        background-color: #dce1e2;
+}
+
+.sprints {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+}
+
+.sprints:hover {
+        cursor: pointer;
+        background-color: #dce1e2;
+}
+
+.template{
+        display: flex;
+        justify-content: space-between;
+}
+
+.template:hover{
+        cursor: pointer;
+        background-color: #dce1e2;
+}
+
+.listDropDownItem-content-bottom{
+ padding: 10px 0;
+}
+
+.listDropDownItem-content-bottom p{
+        padding: 5px;
+}
+
+.listDropDownItem-content-bottom p:hover{
+        background-color: #dce1e2;
+        cursor: pointer;
+}
+
+button{
+        border-radius: 10px;
+        margin: 5px 0;
+        background-color: #7b68ee;
+        color: white;
+        border: none;
+        padding: 10px;
+        outline: none;
+}
+
+.button{
+        text-align: center;
+}
+
+
+.ShowSprints {
+        background-color: white;
+        border-radius: 10px;
+        width: 230px;
+        height: 30px;
+        box-shadow: 0 0 10px rgb(179, 179, 179);
+        position: absolute;
+        right: -100%;
+        top: 0%;
+        z-index: 1;
+}

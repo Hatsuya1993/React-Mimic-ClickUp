@@ -1,0 +1,17 @@
+.showTemplateItem {
+    background-color: white;
+    border-radius: 10px;
+    width: 240px;
+    height: 90px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+    padding: 5px;
+}
+
+.showTemplateItem p {
+    padding: 0;
+}
+
+.showTemplateItem-container-GoBrowser:hover {
+    cursor: pointer;
+    background-color: #ecf0f1;
+}

@@ -1,0 +1,88 @@
+.editColor {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    font-size: 12px;
+}
+
+.editColor-content {
+    position: relative;
+}
+
+.addEditColor{
+    text-align: center;
+    color: #dce1e2;
+}
+
+.addEditColor:hover {
+    color: #7b68ee;
+    cursor: pointer;
+}
+
+.editColor-content-color {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.white {
+    color: white;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 15%;
+    transition: 0.1s all linear;
+}
+
+.white:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 15%;
+    transition: 0.1s all linear;
+}
+
+.red:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.yellow {
+    color: yellow;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    width: 15%;
+    transition: 0.1s all linear;
+}
+
+.yellow:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.green {
+    color: green;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    width: 15%;
+    transition: 0.1s all linear;
+}
+
+.green:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

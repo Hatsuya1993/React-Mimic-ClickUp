@@ -1,0 +1,21 @@
+.Wand {
+    width: 200px !important;
+    height: 130px;
+    background-color: white;
+    padding: 10px 5px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+    z-index: 1;
+    font-size: 12px;
+    position: absolute;
+    top: -100px;
+    border-radius: 10px;
+}
+
+.Wand-container p:hover{
+    background-color: #dce1e2;
+}
+
+.Wand-container p{
+    margin: 0;
+    padding: 5px 0;
+}

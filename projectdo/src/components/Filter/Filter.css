@@ -1,0 +1,119 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+}
+
+.content-left {
+    display: flex;
+    margin: 10px 0;
+    min-width: 50px;
+    border-right: 1px solid #ecf0f1;
+}
+
+.content-left input {
+    border: none;
+    outline: none;
+}
+
+.BsSearch {
+    margin: auto 0;
+    padding: 10px 5px;
+}
+
+.BsSearch:hover {
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    transition: 0.1s all linear;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.filter:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.content-right {
+    display: flex;
+    margin: 10px 0;
+    width: 700px;
+    justify-content: flex-end;
+}
+
+.content-right p {
+    margin: auto 0;
+    padding: 10px 5px;
+}
+
+.status {
+    display: flex;
+    background-color: #dfdbfb;
+    color: #7b68ee;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.status:hover {
+    cursor: pointer;
+}
+
+.subTasks {
+    display: flex;
+    border-radius: 10px;
+}
+
+.subTasks:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.show {
+    display: flex;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.show:hover{
+    background-color: #ecf0f1;
+}
+
+.AiOutlineLoading3Quarters {
+    padding: 10px 10px !important;
+    margin: 0 10px !important;
+    transition: 0.1s all linear;
+    border-radius: 10px;
+}
+
+.AiOutlineLoading3Quarters:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.AiOutlineSave {
+    color: #7b68ee;
+    transition: 0.1s all linear;
+    border-radius: 10px;
+}
+
+.AiOutlineSave:hover {
+    background-color: #ecf0f1;
+    cursor: pointer;
+}
+
+.split {
+    border-left: 1px solid #ecf0f1;
+}
+
+.dots{
+    border-radius: 10px;
+}
+
+.dots:hover{
+    cursor: pointer;
+    background-color: #ecf0f1;
+}
